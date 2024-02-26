@@ -1,60 +1,14 @@
-# Journal of Digital History Author's Repository
+# Abstract
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/C2DH/template_repo_JDH/main?filepath=author_guideline_template.ipynb)
 
-This repository serves as a resource for authors submitting articles to the [Journal of Digital History](https://journalofdigitalhistory.org).
-It contains a Jupyter notebook that provides an example and a simple structure that can be used to write articles for the journal.
-The repository also includes a `preflight`github action that can be automatically triggered on commit, but by default, it is set to `workflow_dispatch`and actionable from the `actions` page on GitHub.
-The preflight action generates a report within the repository that contains information about the adherence of the article to the submission guidelines.
+Contested Memories: The Battle of Mount Street Bridge (BMSB) is a long-term research project that utilises 3D technologies to explore one of the key battles of the Easter 1916 Rising in Dublin, a week-long insurrection with the goal of attaining Irish independence from Great Britain. Begun in 2013, the project was designed to answer a specific research question: how many casualties did the British troops sent to quell the insurrection suffer during the battle. The BMSB team met its goal which was reported in the Journal of British Military History. Yet, we were dissatisfied with the research team being the only ones who were able to gain insights from the 3D models created, as typically is the case with so much 3D scholarship. Thus in 2021 PURE3D was funded to develop an infrastructure for the publication and preservation of scholarship created in 3D, with the BMSB a key source for developing the infrastructure. PURE3D has adopted Voyager Story as one of its 3D viewers, and the BMSB team has utilised it to create an intermedial multimodal publication of the battle. 
 
-## Contents
+Voyager Story, an open-source 3D viewer developed by the Smithsonian Institution, combines textual, visual, moving images and audio to create a rich environment for creating a (spatial) narrative, with a 3D model the central navigational and narrative pillar. Voyager Story also provides for hotspot annotation labels on the 3D model, accompanied by short descriptions. From an annotation label, longer ‘articles’ can be expanded to display supporting digital content, including text, image, hyperlinks, audio, video and other types of embeddable media (including other 3D models). Multiple guided tours can then be created in which camera movements, 3D scene changes, annotation labels, and articles are flexibly organized for designing engagement between the model and the accompanying narrative. 
 
-`author_guideline_template.ipynb` - This Jupyter notebook provides an example and a simple structure that authors can use to write articles for the Journal of Digital History.
+Due to the software design, the MountStreet Bridge team decided to not treat the entire view of the battle as a whole within the software, but rather to present each building separately, creating a linked-spatial narrative of the battle. The first building to be treated this way, 25 Northumberland Road was the first building where the British encountered resistance from Irish troops on 26 April 1916 during their march from the port of Kingstown into Dublin’s city center. 
 
-`.github/workflows/github-actions-preflight.yml` - This workflow file contains the preflight action that can be triggered automatically on commit or manually using the workflow_dispatch event to check that the article respects the Journal guidelines.
+In the process of developing 25 Northumberland Road within Voyager, conceptual challenges emerged that are not found with other forms of media publication. It is our contention that as opportunities open up for 3D-centred publication to become part of the digital heritage ecosystem, further critical analysis is needed on the practical implications of these applications as communication media. This article will explore these challenges and opportunities, both for utilising 3D generally, and Smithsonian Voyager specifically, to construct historical narratives, particularly (but not exclusively) for a public audience. This implementation has also had significant feedback, in the form of an online survey and focus group, the findings of which will also be reported. 
 
-The preflight action generates or updates a report markdown file in the repository that provides information about the adherence of the article to the submission guidelines, usually named `report.md`
-
-`requirements.txt` - stores information about all the libraries, modules, and packages in itself that are used while developing a particular project.
-
-`runtime.txt` - specify the version of the runtime (e.g. the version of Python ). Have python-x.y in runtime.txt to run the repository with Python version x.y
-
-
-## Getting Started
-
-This repository it's a _template_, that is, it can be used as a starting point for new repositories.
-On GitHub.com:
-
-1. navigate to the main page of the repository.
-2. Above the file list, click Use this template.
-3. Select Create a new repository.
-4. Type a name for your new repository, and an optional description.
-5. Click Create repository from template.
-
-Please follow the rest of the documentation on [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to understand how to create a new repository from this template.
-
-Use the example notebook as a template to write your article. You can modify the notebook to suit your needs and add your content.
-
-## Preflight Action
-
-To check if the article respects the Guidelines, we decided to create a `preflight` GitHub action that can be triggered automatically on commit - or manually using the `workflow_dispatch` event. The action is triggered by the `github-actions-preflight.yml` file in the `.github/workflows` folder.
-By default, the preflight action is set to `workflow_dispatch`, which means you can manually trigger it by going to the "Actions" tab in the repository, selecting the "Preflight" workflow, and clicking the "Run workflow" button.
-The preflight action will generate a report in the repository that provides information about the adherence of your article to the submission guidelines.
-
-## MyBinder
-
-The repository also contains a `requirements.txt` and a `runtime.txt` file that can be used to create a MyBinder environment. Check: https://mybinder.readthedocs.io/en/latest/using/config_files.html#preparing-a-repository-for-binder
-The MyBinder environment can be used to run the example notebook to test that the code runs smoothly. 
-
-## Contribution Guidelines
-
-We welcome contributions to this repository that aim to improve the example notebook, the preflight action, or the overall workflow for authors submitting articles to the Journal of Digital History. Just contact us or open an issue.
-
-## License
-
-Copyright (C) 2023 university of Luxembourg.
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-This program is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose. See the GNU Affero General Public License for more details.
-You should have received a copy of the GNU Affero General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
-
-We hope this repository and the provided example notebook are helpful for authors submitting articles to the Journal of Digital History. If you have any questions, feedback, or suggestions, please feel free to open an issue or contact us. Thank you for your contribution!
+# Keywords
+Digital Storytelling, 3D Narrative, 3D Web Viewer, Intermediality
