@@ -1,6 +1,6 @@
 # Abstract
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/C2DH/template_repo_JDH/main?filepath=author_guideline_template.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jdh-observer/52s3BFHa5Miy/main?filepath=skim-article.ipynb)
 
 Contested Memories: The Battle of Mount Street Bridge (BMSB) is a long-term research project that utilises 3D technologies to explore one of the key battles of the Easter 1916 Rising in Dublin, a week-long insurrection with the goal of attaining Irish independence from Great Britain. Begun in 2013, the project was designed to answer a specific research question: how many casualties did the British troops sent to quell the insurrection suffer during the battle. The BMSB team met its goal which was reported in the Journal of British Military History. Yet, we were dissatisfied with the research team being the only ones who were able to gain insights from the 3D models created, as typically is the case with so much 3D scholarship. Thus in 2021 PURE3D was funded to develop an infrastructure for the publication and preservation of scholarship created in 3D, with the BMSB a key source for developing the infrastructure. PURE3D has adopted Voyager Story as one of its 3D viewers, and the BMSB team has utilised it to create an intermedial multimodal publication of the battle. 
 
