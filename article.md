@@ -367,7 +367,7 @@ An early issue the project faced was a lack of examples for designing a space-ba
 - Tour 3: events that occurred in the aftermath of the battle (both in the short term as well as longer-term consequences)
 
 
-```python tags=["figure-12-*","anchor-figure-12-*"]
+```python tags=["figure-12-*", "anchor-figure-12-*"]
 from IPython.display import Image
 metadata={
     "jdh": {
