@@ -18,6 +18,22 @@ jupyter:
 
 <!-- #endregion -->
 
+<!-- #region tags=["contributor"] -->
+ ### Susan Schreibman [![0000-0002-8782-0794](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-8782-0794) 
+Maastricht University
+<!-- #endregion -->
+
+<!-- #region tags=["contributor"] -->
+### Kelly Gillikin Schoueri [![0000-0001-6350-2380](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0001-6350-2380) 
+Maastricht University
+<!-- #endregion -->
+
+<!-- #region tags=["copyright"] -->
+[![cc-by-nc-nd](https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
+© Susan Schreibman and Kelly Gillikin Schoueri. Published by De Gruyter in cooperation with the University of Luxembourg Centre for Contemporary and Digital History. This is an Open Access article distributed under the terms of the [Creative Commons Attribution License CC-BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<!-- #endregion -->
+
 <!-- #region tags=["keywords"] -->
 Digital Storytelling, 3D Narrative, 3D Web Viewer, Intermediality
 <!-- #endregion -->
