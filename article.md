@@ -6,7 +6,7 @@ jupyter:
       extension: .md
       format_name: markdown
       format_version: '1.3'
-      jupytext_version: 1.14.4
+      jupytext_version: 1.16.6
   kernelspec:
     display_name: Python 3 (ipykernel)
     language: python
@@ -47,7 +47,7 @@ In an effort to address this bi-frucation of knowledge, the [Contested Memories:
 ### Choosing Software for the Infrastructure
 <!-- #endregion -->
 
-<!-- #region citation-manager={"citations": {"cite2c-8908013/AIMIM5RK": [{"id": "8908013/AIMIM5RK", "source": "cite2c"}]}} editable=true slideshow={"slide_type": ""} tags=[] -->
+<!-- #region citation-manager={"citations": {"cite2c-8908013/AIMIM5RK": [{"id": "8908013/AIMIM5RK", "source": "cite2c"}]}} editable=true slideshow={"slide_type": ""} -->
 The 2000s saw the development of platforms that provided direct access to 3D, such as Unity and Second Life. Scholarship in 3D for the web necessitated a significant investment of time, money and resources to develop within these platforms, with many projects becoming unusable or obsolete due to changes in web technology (such as changes in browser standards, as was the case for the [Unity Web Player](https://unity.com/releases/editor/whats-new/5.0.0) transition to the plug-in free WebGL) or the academic shift away from Second Life due to Linden Labs increase in their pricing model (<cite id="cite2c-8908013/AIMIM5RK"><a href="#cite2c%7C8908013%2FAIMIM5RK">(Vosinakis & Tsakonas 2016)</a></cite>). In the case of Unity, for 3D gaming companies, these types of updates can be readily accommodated, but for small, one-off funded 3D heritage projects, it frequently means the end of publication on the web ([Figure 1](#anchor-figure-1-*)).
 
 
