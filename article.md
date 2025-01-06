@@ -6,7 +6,7 @@ jupyter:
       extension: .md
       format_name: markdown
       format_version: '1.3'
-      jupytext_version: 1.16.4
+      jupytext_version: 1.14.4
   kernelspec:
     display_name: Python 3 (ipykernel)
     language: python
@@ -47,7 +47,7 @@ In an effort to address this bi-frucation of knowledge, the [Contested Memories:
 ### Choosing Software for the Infrastructure
 <!-- #endregion -->
 
-<!-- #region citation-manager={"citations": {"cite2c-8908013/AIMIM5RK": [{"id": "8908013/AIMIM5RK", "source": "cite2c"}]}} editable=true slideshow={"slide_type": ""} -->
+<!-- #region citation-manager={"citations": {"cite2c-8908013/AIMIM5RK": [{"id": "8908013/AIMIM5RK", "source": "cite2c"}]}} editable=true slideshow={"slide_type": ""} tags=[] -->
 The 2000s saw the development of platforms that provided direct access to 3D, such as Unity and Second Life. Scholarship in 3D for the web necessitated a significant investment of time, money and resources to develop within these platforms, with many projects becoming unusable or obsolete due to changes in web technology (such as changes in browser standards, as was the case for the [Unity Web Player](https://unity.com/releases/editor/whats-new/5.0.0) transition to the plug-in free WebGL) or the academic shift away from Second Life due to Linden Labs increase in their pricing model (<cite id="cite2c-8908013/AIMIM5RK"><a href="#cite2c%7C8908013%2FAIMIM5RK">(Vosinakis & Tsakonas 2016)</a></cite>). In the case of Unity, for 3D gaming companies, these types of updates can be readily accommodated, but for small, one-off funded 3D heritage projects, it frequently means the end of publication on the web ([Figure 1](#anchor-figure-1-*)).
 
 
@@ -254,8 +254,7 @@ From this larger (re)constructed model in Unity, the single building of 25 North
 <!-- #endregion -->
 
 <!-- #region tags=["hermeneutics"] -->
-Once the PURE3D Project set up the Voyager System on institutional servers, it was possible to input the GLB file of 25 Northumberland Road into a Voyager Story Scene using a secure back-end file management system called NextCloud. A file manager operating in the background is a necessary element of any Voyager Scene as the Voyager Toolkit is not a self-contained 3D viewer/editor as well as a file manager. The base files needed to visualise a 3D model in Voyager are only two: 1) the 3D model in a GLB/glTF file format (e.g., 25North_clean.glb) and; 2) the special Voyager-specific JSON.SVX file (e.g., scene.json.svx), an example of which is available on their documentation page in [Github](https://smithsonian.github.io/dpo-voyager/explorer/scene-create/)
-.
+Once the PURE3D Project set up the Voyager System on institutional servers, it was possible to input the GLB file of 25 Northumberland Road into a Voyager Story Scene using a secure back-end file management system called NextCloud. A file manager operating in the background is a necessary element of any Voyager Scene as the Voyager Toolkit is not a self-contained 3D viewer/editor as well as a file manager. The base files needed to visualise a 3D model in Voyager are only two: 1) the 3D model in a GLB/glTF file format (e.g., 25North_clean.glb) and; 2) the special Voyager-specific JSON.SVX file (e.g., scene.json.svx), an example of which is available on their documentation page in [Github](https://smithsonian.github.io/dpo-voyager/explorer/scene-create/).
 <!-- #endregion -->
 
 <!-- #region tags=["hermeneutics"] -->
@@ -406,7 +405,7 @@ display(Image("media/figure_13.jpg"), metadata=metadata)
 ### Implementation in Voyager
 
 
-Once all preparatory materials and mappings were complete, we came together to implement the content and configure the tours in Voyager. The final version of our implementation is embedded below ([Figure 14](#anchor-figure-14-*)) and can be accessed via the [PURE3D Project website](https://pure3d.eu/25northumberlandrd/) and will be included within the [PURE3D Infrastructure](https://editions.pure3d.eu/index.html).
+Once all preparatory materials and mappings were complete, we came together to implement the content and configure the tours in Voyager.  The implementation is embedded below ([Figure 14](#anchor-figure-14-*)) and can be accessed via the [PURE3D Infrastructure](https://editions.pure3d.eu/project/1/edition/1/index.html). 
 
 ```python tags=["figure-14-*", "anchor-figure-14-*"]
 from IPython.display import HTML, display
@@ -421,10 +420,12 @@ metadata={
         }
     }
 }
-display(HTML('<div class="sketchfab-embed-wrapper"> <iframe name="Smithsonian Voyager" src="https://viewer.acc.pure3d.eu/voyager-explorer-dev.html?root=models/53460aac36aa15966973df3af49793209eee2cf8/files/Documents/models/25North/&document=scene.json" width="800" height="450" allow="xr; xr-spatial-tracking; fullscreen"></iframe>'), metadata= metadata)
+display(HTML('<div class="sketchfab-embed-wrapper"> <iframe name="Smithsonian Voyager" src="https://author.pure3d.eu/viewer/0.46.1/read/64eca653b1520537c7ac5b06/update" width="800" height="450" allow="xr; xr-spatial-tracking; fullscreen"></iframe>'), metadata= metadata)
 
 
 ```
+
+While we implemented using Voyager version 0.17.0, it has, since the time of publication, been updated and is currently at v.0.46.1. Therefore, there has been both minor and major changes to Voyager's functionality since we initially created the edition. This article describes our experiences and workflows at the time of implementation using the 17th version of the application. 
 
 In the process of inputting content and making configurations, we discovered a number of visual and conceptual challenges that we had not anticipated. For example, the large number of hotspot annotations crowded the 3D object and sometimes prevented visibility of other annotations ([Figure 15: Left](#anchor-figure-15-*)). To counter this, annotations were subdivided into three groups using the Tag feature in Voyager. We also colour-coded the different groups to help with visual differentiation ([Figure 15: Right](#anchor-figure-15-*)).
 
