@@ -436,7 +436,7 @@ metadata={
         }
     }
 }
-display(HTML('<div class="sketchfab-embed-wrapper"> <iframe name="Smithsonian Voyager" src="https://author.pure3d.eu/viewer/0.46.1/read/64eca653b1520537c7ac5b06/update" width="800" height="450" allow="xr; xr-spatial-tracking; fullscreen"></iframe>'), metadata= metadata)
+display(HTML('<iframe name="Smithsonian Voyager" src="https://editions.pure3d.eu/project/1/edition/1/index-voyager-0.46.1.html" width="800" height="450" allow="xr; xr-spatial-tracking; fullscreen"></iframe>'), metadata= metadata)
 
 
 ```
